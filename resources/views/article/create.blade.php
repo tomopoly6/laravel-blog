@@ -17,4 +17,9 @@
       <button type="submit" class="btn btn-primary">新規追加</button>
     </form>
 
+<br>
+<div>
+<button type="button" class="btn btn-info" onclick="history.back()">戻る</button>
+</div>
+
 @endsection
