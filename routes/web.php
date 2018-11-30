@@ -25,3 +25,8 @@ Route::post('edit', 'ArticleController@update');
 //記事の削除
 Route::get('delete/{id}', 'ArticleController@show');
 Route::post('delete', 'ArticleController@delete');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
