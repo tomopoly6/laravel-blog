@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>ブログ削除</h1>
+    <h1>記事の削除</h1>
 
     <form method="post" action="/delete">
       {{ csrf_field() }}
@@ -15,7 +15,7 @@
         <label for="bodyInput">内容</label>
         <textarea readonly class="form-control" id="bodyInput" rows="3" name="body">{{ $article->body }}</textarea>
       </div>
-      <button type="submit" class="btn btn-primary">削除</button>
+      <button type="submit" class="btn btn-primary">削除する</button>
     </form>
 
 <br>

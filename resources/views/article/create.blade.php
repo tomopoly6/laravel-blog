@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>ブログ新規追加</h1>
+    <h1>記事の追加</h1>
 
     @if (count($errors) > 0)
             <div class="alert alert-danger">

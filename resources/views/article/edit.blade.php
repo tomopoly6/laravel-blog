@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>ブログ修正</h1>
+    <h1>記事の編集</h1>
 
     @if (count($errors) > 0)
             <div class="alert alert-danger">
@@ -25,7 +25,7 @@
         <label for="bodyInput">内容</label>
         <textarea class="form-control" id="bodyInput" rows="3" name="body">{{ $article->body }}</textarea>
       </div>
-      <button type="submit" class="btn btn-primary">修正</button>
+      <button type="submit" class="btn btn-primary">編集完了</button>
     </form>
     
 <br>

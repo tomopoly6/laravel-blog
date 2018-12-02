@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>ブログ削除完了</h1>
+    <h1>削除完了</h1>
 
     <div class="alert alert-primary" role="alert">
       削除しました。
