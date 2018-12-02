@@ -4,6 +4,17 @@
 
     <h1>ブログ新規追加</h1>
 
+    @if (count($errors) > 0)
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+    @endif
+
+
     <form method="post" action="/create">
       {{ csrf_field() }}
       <div class="form-group">
